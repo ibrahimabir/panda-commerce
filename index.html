@@ -34,13 +34,13 @@
                             <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="#catagories">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#shoe-and-bags">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#subscription">Contact Us</a>
                         </li>
                         <li class="nav-item">
                             <form class="d-flex">
@@ -129,7 +129,7 @@
     </header>
     <main>
         <!-- catagories part started  -->
-        <section class="container mt-5 pt-5">
+        <section class="container mt-5 pt-5" id="catagories">
             <!-- <div class="row row-cols-3 row-cols-lg-3 g-4">
                 <div class="d-flex col-lg-4 bg-info align-items-center justify-content-between">
                     <div>
@@ -190,13 +190,13 @@
             </div>
         </section>
         <!-- catagories part end  -->
-        <section class="shoes-and-bags-section container-fluid">
+        <section class="shoes-and-bags-section container-fluid" id="shoe-and-bags">
             <!-- shoes card part started -->
             <section class="container mt-5 pt-5">
                 <h1>Shoes</h1>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                        <div class="card h-100 d-flex align-items-center shadow-lg mb-5 bg-body rounded-3">
+                        <div class="card h-100 d-flex align-items-center shadow-lg mb-5 pb-5  bg-body rounded-3">
                             <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h3 class="card-title text-center">Reebok Dart Men’s Shoes</h3>
@@ -211,7 +211,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100  d-flex align-items-center shadow-lg mb-5 bg-body rounded-3">
+                        <div class="card h-100  d-flex align-items-center shadow-lg mb-5 pb-5  bg-body rounded-3">
                             <img src="./images/shoes/shoe-2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h3 class="card-title text-center">Reebok Pump</h3>
@@ -226,7 +226,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 d-flex align-items-center shadow-lg mb-5 bg-body rounded-3">
+                        <div class="card h-100 d-flex align-items-center shadow-lg mb-5 pb-5 bg-body rounded-3">
                             <img src="./images/shoes/shoe-3.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h3 class="card-title text-center">Reebok All Terrain</h3>
@@ -244,11 +244,11 @@
             </section>
             <!-- shoes card part end  -->
             <!-- Bags card part started -->
-            <section class="container mt-5 pt-5">
+            <section class="container mt-5 py-5">
                 <h1>Bagpack</h1>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                        <div class="card h-100 d-flex align-items-center shadow-lg mb-5 bg-body rounded-3">
+                        <div class="card h-100 d-flex align-items-center shadow-lg mb-5  pb-5 bg-body rounded-3">
                             <img src="./images/bags/bag-1.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h3 class="card-title text-center">Ison Backpack</h3>
@@ -263,7 +263,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100  d-flex align-items-center shadow-lg mb-5 bg-body rounded-3">
+                        <div class="card h-100  d-flex align-items-center shadow-lg mb-5 pb-5  bg-body rounded-3">
                             <img src="./images/bags/bag-2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h3 class="card-title text-center">Biaowang Backpack</h3>
@@ -278,7 +278,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 d-flex align-items-center shadow-lg mb-5 bg-body rounded-3">
+                        <div class="card h-100 d-flex align-items-center shadow-lg mb-5 pb-5  bg-body rounded-3">
                             <img src="./images/bags/bag-3.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h3 class="card-title text-center">Dxyizu WS54 Smart</h3>
@@ -297,9 +297,24 @@
             </section>
             <!-- Bags card part end  -->
         </section>
+        <!-- subcription part started -->
+        <section class="container mt-5 bg-secondary rounded-3 d-flex align-items-center justify-content-center"
+            id="subscription">
+            <div class="py-5">
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales specials and more</p>
+                <input class="form-control" type="email" name="email" id="" placeholder="Enter your email">
+                <br>
+                <button type="submit" class="btn btn-warning">SUBMIT</button>
+            </div>
+        </section>
+        <!-- subcription part end -->
     </main>
-
-
+    <!-- footer started -->
+    <footer class="d-flex justify-content-center container mt-5 pt-5">
+        <p><span>&copy</span>2022. Ibrahim Khalil Abir.Senbag,Noakhali</p>
+    </footer>
+    <!-- footer end  -->
 
     <!-- Java script cdn -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
